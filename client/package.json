@@ -1,7 +1,7 @@
 {
   "name": "react-test-app",
   "version": "1.0.0",
-  "proxy": "http://100.24.16.247:5000",
+  "proxy": "http://localhost:5000",
   "description": "",
   "main": "index.js",
   "scripts": {

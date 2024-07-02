@@ -54,7 +54,7 @@ export function Dashboard() {
         query.append('limit', (page + 1) * parseInt(values.limit))
         query.append('offset', page * parseInt(values.limit) + 1)
 
-        const response = await fetch(`http://100.24.16.247:5000/api/photo?${query.toString()}`)
+        const response = await fetch(`/api/photo?${query.toString()}`)
         const _data = await response.json()
         setData(_data || [])
     }
