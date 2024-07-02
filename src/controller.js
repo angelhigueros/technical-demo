@@ -71,7 +71,7 @@ const photoFiltering = async query => {
         }
       })
 
-    const limit = query['limit'] > 0 ? query['limit'] - 1 : 24
+    const limit = query['limit'] > 0 ? query['limit']  : 25
     const offset = query['offset'] > 0 ? query['offset'] - 1 : 0
 
     return filteredData.slice(offset, limit)
