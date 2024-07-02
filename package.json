@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build --prefix ./client && node server",
+    "start": "node server",
     "dev:client": "npm run dev --prefix ./client",
     "dev:server": "nodemon server",
     "dev": "concurrently --kill-others \"npm run dev:client\" \"npm run dev:server\"",

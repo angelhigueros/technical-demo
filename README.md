@@ -12,14 +12,16 @@ Features
 - **Dynamic Views**: Toggle between gallery and list view to suit user preferences.
 - **Intuitive User Interface**: Built with React and Bootstrap for a modern, responsive user experience.
 
+PROD: https://100.24.16.247:5000/ 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * Node JS with express (v20.15.0)
 * React JS (v16.14.0)
-
+* AWS (EC2)
+* Docker
+* GitHub Actions
 
 
 ## Getting Started
@@ -84,7 +86,7 @@ recommended to use node v20 or higher
 
 API
 
-- GET http://localhost:5000/api/photo
+- GET https://100.24.16.247:5000/api/photo
  
  ?title =
 
@@ -95,7 +97,7 @@ API
 
 Get all the photos and be able to filter them
 
- - GET http://localhost:5000/api/photo/:id
+ - GET https://100.24.16.247:5000/api/photo/api/photo/:id
    
 Get full data of a photo by its ID
 
