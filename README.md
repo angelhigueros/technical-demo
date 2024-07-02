@@ -12,7 +12,7 @@ Features
 - **Dynamic Views**: Toggle between gallery and list view to suit user preferences.
 - **Intuitive User Interface**: Built with React and Bootstrap for a modern, responsive user experience.
 
-PROD: https://100.24.16.247:5000/ 
+PROD: http://100.24.16.247:5000/ 
 
 ### Built With
 
@@ -86,7 +86,7 @@ recommended to use node v20 or higher
 
 API
 
-- GET https://100.24.16.247:5000/api/photo
+- GET http://100.24.16.247:5000/api/photo
  
  ?title =
 
@@ -97,10 +97,17 @@ API
 
 Get all the photos and be able to filter them
 
- - GET https://100.24.16.247:5000/api/photo/api/photo/:id
+ - GET http://100.24.16.247:5000/api/photo/:id
    
 Get full data of a photo by its ID
 
+## Docuemntation
+
+- GitHub Actions pipeline
+  ![image](https://github.com/angelhigueros/relish-technical-test/assets/45275116/f8116042-7ab2-4742-b112-80c549d6d1b0)
+
+- AWS EC2 instance
+  ![image](https://github.com/angelhigueros/relish-technical-test/assets/45275116/4e13e11a-72ce-40d2-a0b9-579c535a6adf)
 
 
 
