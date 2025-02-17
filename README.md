@@ -116,6 +116,3 @@ Get full data of a photo by its ID
 ## Contact
 
 Angel Higueros - angel.higueros01@gmail.com
-
-Project Link: [https://github.com/angelhigueros/relish-technical-test](https://github.com/angelhigueros/relish-technical-test)
-
